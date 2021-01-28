@@ -166,13 +166,13 @@ fr:
     room_configuration:
       title: Configuration du salon
       mute:
-        info: Automatiquement mettre en sourdine les utilisateurs lorsqu'ils rejoignent la réunion BigBlueButton
+        info: Automatiquement mettre en sourdine les utilisateurs lorsqu'ils rejoignent la réunion.
       require_moderator:
-        info: "Avertit le modérateur d'une conférence BigBlueButton lorsqu'un utilisateur essaye de se connecter. Si l'utilisateur est approuvé, il pourra joindre la conférence."
+        info: "Avertit le modérateur d'une conférence lorsqu'un utilisateur essaye de se connecter. Si l'utilisateur est approuvé, il pourra joindre la conférence."
       allow_any:
         info: "Permet à n'importe quel utilisateur de démarrer la conférence à n'importe quel moment. Par défaut, seul le propriétaire peut démarrer la conférence."
       all_moderator:
-        info: Donne à tous les utilisateurs les droits de modérateur dans BigBlueButton lors de la connexion à une conférence.
+        info: Donne à tous les utilisateurs les droits de modérateur  lors de la connexion à une conférence.
       recordings:
         info: "Permet aux propriétaires d'une salle de préciser s'ils souhaitent ou non avoir la possibilité de l'enregistrer. Si cette option est activée, le modérateur doit toujours cliquer sur le bouton « Enregistrer » une fois que la réunion a commencé."
       options:
@@ -220,7 +220,7 @@ fr:
         valid: Valide
       title: Gérer les utilisateurs
   add_to_google_calendar: "Ajouter au calendrier Google"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Visio CCV
   bigbluebutton_exception: "Oups, une erreur s'est produite lors du démarrage de la réunion !"
   cancel: Annuler
   cookies:
@@ -240,7 +240,7 @@ fr:
   errors:
     bigbluebutton:
       help: "Veuillez vous assurer que les mesures appropriées ont été prises.<a href=\"%{doc_link}\">En savoir plus</a>"
-      message: BigBlueButton cible et secret invalide
+      message: Visio CCV cible et secret invalide
       title: Erreur serveur
     internal:
       message: Il semblerait que quelque chose se soit mal passé de notre côté.
@@ -296,7 +296,7 @@ fr:
     email: Email
     submit: Soumettre
   go_back: Retour
-  greenlight: Greenlight
+  greenlight: CCV Visio
   header:
     all_recordings: Tous les enregistrements
     dropdown:
@@ -320,7 +320,7 @@ fr:
     search:
       start: Commencer la recherche...
   landing:
-    about: "%{href} est une interface simple pour votre serveur open-source de Web conférence BigBlueButton. Vous pouvez créer vos propres salles pour héberger des sessions ou rejoindre d'autres utilisateurs via un lien court et pratique. "
+    about: "Vous pouvez créer vos propres salles pour héberger des sessions ou rejoindre d'autres utilisateurs via un lien court et pratique. "
     welcome: Bienvenue sur la Visioconférence de la Communauté de communes du Vallespir.
     video: Regardez notre tutoriel sur l'utilisation de Greenlight
     upgrade: Montrez-moi comment passer à la version 2.0 !
@@ -336,10 +336,10 @@ fr:
         signin: " Pour accéder à vos salons personnels, cliquez sur le bouton ci-dessous et connectez-vous."
         signin_link: Connexion
         signup:
-          info: Un nouvel utilisateur s'est inscrit pour utiliser Greenlight.
+          info: Un nouvel utilisateur s'est inscrit pour utiliser la visioconférence de la Communauté de communes du Vallespir.
           more-info: "Pour autoriser cet utilisateur à accéder à Greenlight, vous devez approuver son compte depuis la page \"Organisation\"."
           admins_link: Visitez la page "Organisation"
-          subject: Inscription d'un nouvel utilisateur Greenlight
+          subject: Inscription d'un nouvel utilisateur sur la visioconférence de la Communauté de communes du Vallespir
           username: "L'utilisateur s'est inscrit avec le nom %{name} et l'adresse email %{email}. "
         subject: Compte approuvé
         username: "Votre nom d'utilisateur est %{email}."
@@ -353,11 +353,11 @@ fr:
         signup_info: "Pour vous inscrire utilisez votre e-mail, cliquez sur le bouton ci-dessous et suivez les étapes."
         signup_link: Inscription
         signup:
-          info: Un utilisateur invité s'est inscrit pour utiliser Greenlight.
+          info: Un utilisateur invité s'est inscrit pour utiliser la visioconférence de la Communauté de communes du Vallespir.
           admins_link: Visitez la page "Organisation"
           subject: Inscription d'un nouvel utilisateur Greenlight
           username: "L'utilisateur s'est inscrit avec le nom %{name} et l'adresse email %{email}."
-        subject: Invitation à joindre BigBlueButton
+        subject: Invitation à joindre la visioconférence de la Communauté de communes du Vallespir
         username: "Votre nom d'utilisateur est %{email}."
       password_reset:
         title: 'Réinitialiser le mot de passe'
@@ -551,7 +551,7 @@ fr:
       fail: "Erreur lors de la suppression de la salle (%{error})"
     enter_the_access_code: Veuillez introduire le code d'accès de la salle
     invalid_provider: Vous avez introduit une url non valide. Veuillez vérifier l'url et essayez à nouveau.
-    invitation_description: "Vous avez été invité à rejoindre 1%{name} en utilisant le BigBlueButton. Pour le faire, cliquez sur le lien ci-dessus et saisissez votre nom."
+    invitation_description: "Vous avez été invité à rejoindre 1%{name} en utilisant la visioconférence de la Communauté de communes du Vallespir. Pour le faire, cliquez sur le lien ci-dessus et saisissez votre nom."
     invited: Vous avez été invité à rejoindre
     recording_present: Je reconnais que cette session va être enregistrée. Cela peut inclure ma voix et la vidéo si elle est activée.
     invite_participants: Inviter des participants
